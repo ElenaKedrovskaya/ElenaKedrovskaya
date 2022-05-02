@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* * {
+    padding: 0;
+    margin:0;
+} */
+
+body {
+    background-color: rgb(243, 237, 238);
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /* font: normal 16px 'Roboto', sans-serif; */
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 40px; */
+}
+
+/* Box Model */
+.container {
+    max-width: 790px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* .social {
+    background: rgb(195, 228, 218);
+    padding: 10px;
+    border: 2px solid gray;
+    border-bottom-style: dashed;
+    border-top-style: dashed;
+    margin: -7px 0px;
+} */
+
+/* .box-model > div {
+    float: left;
+    background: #0f141e;
+    height: 200px;
+    border: 4px solid rebeccapurple;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: rgb(244, 244, 190);
+}
+
+.bg-green {
+    background: rgb(196, 238, 196);
+}
+
+.bg-red {
+    background: rgb(243, 217, 217);
+}
+
+.card {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #86898f;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 7px;
+}
+
+.table {
+    border: 3px solid #86898f;
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f
+}
+
+/* .table tr:nth-child(odd) {
+    background: rgb(243, 237, 238);
+} */
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid #ccc;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child{
+    margin-right: 0;
+}
+
+.btn {
+    background: #0f141e;
+    padding: 15px 20px;
+    color:rgb(243, 237, 238);
+    border: 2px solid #86898f;
+    border-radius: 20px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* Почему не работает прозрчность при наведении на кнопку */
+.btn:hover {
+    fill-opacity: 0,9; 
+}
+
+/* .position {
+    position: relative;
+    border: 4px solid blue;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    /* width: 100%;
+    height: 50px;
+    background: blueviolet;
+} */ 
